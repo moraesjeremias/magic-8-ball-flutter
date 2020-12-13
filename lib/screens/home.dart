@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:magic_8_ball/widgets/ballWidget.dart';
 
 class BallPage extends StatelessWidget {
   @override
@@ -8,7 +9,7 @@ class BallPage extends StatelessWidget {
         backgroundColor: Colors.blue[800],
         title: Text('Ask Me Anything'),
       ),
-      body: Container(),
+      body: Ball(),
       backgroundColor: Colors.blue[400],
     );
   }
